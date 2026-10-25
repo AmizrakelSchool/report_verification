@@ -163,7 +163,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         else:
             await context.bot.send_message(
                 chat_id=target_user_id,
-                text="✅ **Payment Verified!**\nPlease download and fill out the assignment form document from this link https://t.me/document_file, then send it back to this chat.\nPlease change the file name to Your name and ID number when saving it before sending.",
+                text="✅ **Payment Verified!**\nPlease download and fill out the assignment form document, then send it back to this chat.\nPlease change the file name to EDITED when saving it before sending.",
                 parse_mode="Markdown",
             )
 
