@@ -156,7 +156,7 @@ async def button_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     caption=(
                         "✅ **Payment Verified!**\n\n"
                         "📌 Please download the Word document attached above, fill out all required assignment details, "
-                        "and send the completed file back to this chat.\nPlease download and fill out the assignment form documen, then send it back to this chat.\nPlease change the file name to EDITED when saving it before sending."
+                        "and send the completed file back to this chat.\nPlease download and fill out the assignment form documen, then send it back to this chat.\n⚠️Please change the file name to EDITED when saving it before sending."
                     ),
                     parse_mode="Markdown"
                 )
